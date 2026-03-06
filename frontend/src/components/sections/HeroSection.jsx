@@ -96,20 +96,7 @@ export default function HeroSection({ onOpenBooking }) {
 
             <div className="h-[550px] w-full rounded-[3rem] overflow-hidden border border-[#61DAFB]/20 shadow-[0_0_50px_rgba(97,218,251,0.15)] bg-white/40 dark:bg-zinc-900/40 glass-effect relative z-10 group">
               <div className="sketchfab-embed-wrapper w-full h-full transform transition-transform duration-700 group-hover:scale-105">
-                <iframe
-                  title="React"
-                  className="w-full h-full"
-                  frameBorder="0"
-                  allowFullScreen
-                  mozallowfullscreen="true"
-                  webkitallowfullscreen="true"
-                  allow="autoplay; fullscreen; xr-spatial-tracking"
-                  xr-spatial-tracking
-                  execution-while-out-of-viewport
-                  execution-while-not-rendered
-                  web-share
-                  src="https://sketchfab.com/models/2c2de03ebc284c639d974ad3047d7497/embed?autostart=1&ui_hint=0&transparent=1&dnt=1"
-                ></iframe>
+                <img src="./src/assets/hospital.png" className='w-full h-full ' alt="" />
               </div>
 
               {/* Overlay glass decoration */}

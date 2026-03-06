@@ -146,7 +146,7 @@ export default function SecurityComplianceSection() {
         </motion.div>
 
         {/* Security statement callout */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : { opacity: 0 }}
           transition={{ delay: 1 }}
@@ -167,7 +167,7 @@ export default function SecurityComplianceSection() {
               </p>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   )

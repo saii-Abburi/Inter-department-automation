@@ -16,7 +16,7 @@ export default function FinalCTASection({ onOpenBooking }) {
   }
 
   return (
-    <section ref={ref} className="py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-[#61DAFB]/5 dark:from-zinc-950 dark:to-zinc-900 relative overflow-hidden">
+    <section ref={ref} className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-[#61DAFB]/5 dark:from-zinc-950 dark:to-zinc-900 relative overflow-hidden">
       {/* Background radial glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-4xl h-full bg-[#61DAFB]/10 rounded-full blur-[140px] pointer-events-none" />
 
@@ -106,7 +106,7 @@ export default function FinalCTASection({ onOpenBooking }) {
         </motion.div>
 
         {/* Quick FAQ summary */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
           transition={{ delay: 0.8 }}
@@ -128,9 +128,9 @@ export default function FinalCTASection({ onOpenBooking }) {
             q="Custom Automations?"
             a="Unlimited neural rules adapted to your specific clinical logic."
           />
-        </motion.div>
+        </motion.div> */}
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : { opacity: 0 }}
           transition={{ delay: 1.2 }}
@@ -139,7 +139,7 @@ export default function FinalCTASection({ onOpenBooking }) {
           <p className="text-sm font-bold text-[#1F4E6F]/40 dark:text-gray-500 uppercase tracking-widest">
             Trusted by 500+ Institutions • ISO Certified • BAA Ready
           </p>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   )

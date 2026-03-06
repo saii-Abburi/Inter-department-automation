@@ -5,7 +5,7 @@ require("dotenv").config();
 const workflowRoutes = require("./routes/workflowRoutes");
 const requestRoutes = require("./routes/requestRoutes");
 const authRoutes = require("./routes/authRoutes");
-
+const chatbotRoutes = require("./routes/chatbotRoutes");
 const app = express();
 const cors = require('cors');
 app.use(cors({
@@ -16,6 +16,7 @@ app.use(cors({
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use("/api/auth", authRoutes);
+app.use("/api/chatbot", chatbotRoutes);
 
 
 // 🔹 Replace with your MongoDB URL
@@ -23,7 +24,7 @@ const MONGO_URI = "mongodb+srv://sandeeprepala3_db_user:GSl5KsVferIH4XPX@cluster
 
 mongoose.connect(MONGO_URI)
     .then(() => {
-        console.log("✅ Connected to MongoDB Database");
+        console.log("✅ Connected to MongoDB Database"); 
 
         app.use("/workflow", workflowRoutes);
         app.use("/request", requestRoutes);

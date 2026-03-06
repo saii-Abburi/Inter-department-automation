@@ -92,11 +92,5 @@ npm run dev # Starts the Vite server on port 5173
 ```
 
 ---
-
-## 🛡 Security & Compliance
-*   **HIPAA Ready**: Designed with medical data privacy at the core.
-*   **AES-256 Encryption**: Data at rest and in-transit protocols.
-*   **Role-Based Access Control (RBAC)**: Strict departmental permissions.
-
 ---
 **HospitalFlow** // *Forging the future of medical coordination.*

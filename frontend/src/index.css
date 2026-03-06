@@ -141,9 +141,9 @@
 }
 
 /* Selection styling */
-::selection {
+/* ::selection {
   @apply bg-medical-dark/20 text-foreground;
-}
+} */
 
 ::-webkit-scrollbar {
   width: 8px;

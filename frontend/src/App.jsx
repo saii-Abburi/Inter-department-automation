@@ -12,7 +12,7 @@ import HowItWorksSection from '@/components/sections/HowItWorksSection'
 import SecurityComplianceSection from '@/components/sections/SecurityComplianceSection'
 import TestimonialsSection from '@/components/sections/TestimonialsSection'
 import FinalCTASection from '@/components/sections/FinalCTASection'
-import ChatBubble from '@/components/ui/ChatBubble'
+// import ChatBubble from '@/components/ui/ChatBubble'
 import BookingModal from '@/components/ui/BookingModal'
 import AuthPage from '@/pages/AuthPage'
 import DashboardLayout from '@/layouts/DashboardLayout'
@@ -35,7 +35,6 @@ function LandingPage({ onOpenBooking }) {
         <TestimonialsSection />
         <FinalCTASection onOpenBooking={onOpenBooking} />
       </main>
-      <ChatBubble />
       <Footer />
     </>
   )
@@ -94,6 +93,7 @@ function App() {
             </DashboardLayout>
           } />
         </Routes>
+        {/* <ChatBubble /> */}
       </div>
     </Router>
   )

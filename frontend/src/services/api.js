@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://workflow-automation-backend-7up6.onrender.com';
+const API_BASE_URL = 'http://localhost:5000';
 
 const api = axios.create({
     baseURL: API_BASE_URL,
@@ -34,6 +34,10 @@ export const requestApi = {
 
 export const workflowApi = {
     createWorkflow: (data) => api.post('/workflow/create', data),
+};
+
+export const chatbotApi = {
+    chat: (message, history) => api.post('/api/chatbot', { message, history }),
 };
 
 export default api;
