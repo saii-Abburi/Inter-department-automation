@@ -96,7 +96,7 @@ export default function HeroSection({ onOpenBooking }) {
 
             <div className="h-[550px] w-full rounded-[3rem] overflow-hidden border border-[#61DAFB]/20 shadow-[0_0_50px_rgba(97,218,251,0.15)] bg-white/40 dark:bg-zinc-900/40 glass-effect relative z-10 group">
               <div className="sketchfab-embed-wrapper w-full h-full transform transition-transform duration-700 group-hover:scale-105">
-                <img src="./src/assets/hospital.png" className='w-full h-full ' alt="" />
+                <img src="https://docpulse.com/wp-content/uploads/2024/02/slider-small-1.jpg" className='w-full h-full ' alt="" />
               </div>
 
               {/* Overlay glass decoration */}
